@@ -1,4 +1,4 @@
-package com.webSocketDemo.mongo.model;
+package com.webSocketDemo.model;
 
 import java.util.Date;
 import java.util.Random;

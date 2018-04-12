@@ -1,4 +1,4 @@
-package com.webSocketDemo.config.websocket;
+package com.webSocketDemo.config;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -14,8 +14,7 @@ import org.springframework.web.socket.config.annotation.WebSocketTransportRegist
 import org.springframework.web.socket.handler.WebSocketHandlerDecorator;
 import org.springframework.web.socket.handler.WebSocketHandlerDecoratorFactory;
 
-import com.webSocketDemo.mongo.service.RelationService;
-import lombok.extern.log4j.Log4j;
+
 
 /**
  * WebSocket配置檔

@@ -1,4 +1,4 @@
-package com.webSocketDemo.api;
+package com.webSocketDemo.controller;
 
 import java.util.Date;
 import java.util.Random;
@@ -12,10 +12,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.webSocketDemo.config.sercurity.UserPrincipal;
-import com.webSocketDemo.mongo.model.User;
-import com.webSocketDemo.mongo.service.RelationService;
-import com.webSocketDemo.mongo.service.UserService;
+import com.webSocketDemo.model.User;
+import com.webSocketDemo.model.UserPrincipal;
+import com.webSocketDemo.service.RelationService;
+import com.webSocketDemo.service.UserService;
+
+
 
 /**
  * 通用 API

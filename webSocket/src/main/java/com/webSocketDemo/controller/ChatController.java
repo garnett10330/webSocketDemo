@@ -1,10 +1,11 @@
-package com.webSocketDemo.chat.controller;
+package com.webSocketDemo.controller;
 
-import com.webSocketDemo.chat.Model.BaseMessage;
-import com.webSocketDemo.chat.Model.ChatMessage;
-import com.webSocketDemo.mongo.model.User;
-import com.webSocketDemo.mongo.service.UserService;
 import com.alibaba.fastjson.JSON;
+import com.webSocketDemo.model.BaseMessage;
+import com.webSocketDemo.model.ChatMessage;
+import com.webSocketDemo.model.User;
+import com.webSocketDemo.service.UserService;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.messaging.handler.annotation.MessageMapping;
 import org.springframework.messaging.simp.SimpMessagingTemplate;

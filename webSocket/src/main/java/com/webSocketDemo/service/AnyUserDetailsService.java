@@ -1,4 +1,4 @@
-package com.webSocketDemo.config.sercurity;
+package com.webSocketDemo.service;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,8 +11,10 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
-import com.webSocketDemo.mongo.model.User;
-import com.webSocketDemo.mongo.service.UserService;
+import com.webSocketDemo.model.User;
+import com.webSocketDemo.model.UserPrincipal;
+
+
 
 /**
  * 驗證登入者詳情

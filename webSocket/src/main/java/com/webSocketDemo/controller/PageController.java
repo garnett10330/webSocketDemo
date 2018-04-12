@@ -8,9 +8,10 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 
-import com.webSocketDemo.config.sercurity.UserPrincipal;
-import com.webSocketDemo.mongo.model.User;
-import com.webSocketDemo.mongo.service.RelationService;
+
+import com.webSocketDemo.model.User;
+import com.webSocketDemo.model.UserPrincipal;
+import com.webSocketDemo.service.RelationService;
 
 /**
  * 登入相關controller

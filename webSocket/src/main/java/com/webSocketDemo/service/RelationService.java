@@ -1,4 +1,4 @@
-package com.webSocketDemo.mongo.service;
+package com.webSocketDemo.service;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -10,7 +10,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 
-import com.webSocketDemo.mongo.model.User;
+import com.webSocketDemo.model.User;
 import lombok.extern.log4j.Log4j;
 
 /**

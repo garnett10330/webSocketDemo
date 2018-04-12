@@ -1,10 +1,12 @@
-package com.webSocketDemo.mongo.service;
+package com.webSocketDemo.service;
 
 import java.util.concurrent.ConcurrentHashMap;
 
 import org.springframework.stereotype.Service;
 
-import com.webSocketDemo.mongo.model.User;
+import com.webSocketDemo.model.User;
+
+
 
 /**
  * UserService使用者邏輯

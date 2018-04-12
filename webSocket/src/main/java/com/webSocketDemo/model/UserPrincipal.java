@@ -1,4 +1,4 @@
-package com.webSocketDemo.config.sercurity;
+package com.webSocketDemo.model;
 
 import java.util.Collection;
 
